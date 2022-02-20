@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="calc.css" nonce>
+    </head>
+<body>
+        
+    
+    <div id = "mainDiv" >
+
+        <div id="lineOfNumber">
+            <label id="inLabel"><input onkeypress="resetLine()" onclick="resetLine()" id = "inputLine" type="text"></input></label>
+        </div>
+        <div id="mainButtons">
+          <div id="numbersTable">
+
+           
+            <div><button onclick="numbersPress('1')">1</button></div>
+            <div><button onclick="numbersPress('2')">2</button></div>
+            <div><button onclick="numbersPress('3')">3</button></div>
+            <div><button onclick="numbersPress('4')">4</button></div>
+            <div><button onclick="numbersPress('5')">5</button></div>
+            <div><button onclick="numbersPress('6')">6</button></div>
+            <div><button onclick="numbersPress('7')">7</button></div>
+            <div><button onclick="numbersPress('8')">8</button></div>
+            <div><button onclick="numbersPress('9')">9</button></div>
+            <div><button onclick="numbersPress('0')">0</button></div>
+            <div><button onclick="numbersPress('.')">.</button></div>
+            <div><button onclick="numbersPress('C')">C</button></div>
+           
+            
+          </div>
+          <div id="operatorsTable">
+            <div><button onclick="numbersPress('+')">+</button></div>
+            <div><button onclick="numbersPress('-')">-</button></div>
+            <div><button onclick="numbersPress('*')">X</button></div>
+            <div><button onclick="numbersPress('/')">:</button></div>
+            <div><button onclick="numbersPress('(')">(</button></div>
+            <div><button onclick="numbersPress(')')">)</button></div>
+            <div><button onclick="pressSqrt()">√</button></div>
+            <div><button onclick="calc()">=</button></div>
+            
+            
+          </div>
+        </div>
+    </div>
+    <script src = "script.js"> </script>
+</body>
+</html>
