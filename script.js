@@ -56,7 +56,7 @@ const numbersPress = (i) => {
 
 const calc = () => {
     console.log(Line.value);
-    Line.value = Line.value.replace("√()" , "Math.sqrt");
+    Line.value = Line.value.replace("√" , "Math.sqrt()");
      
    
     try{
